@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+strong{
+    color: #22D4FD;
+}
+
+header h1{
+   padding: 1em;
+   margin: 0 10%;
+   margin-bottom: 10px;
+   text-align: center;
+   background-color: rgb(197, 133, 133);
+}
+
+section{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto{
+    width: 45%;
+}
+
+.imagem{
+    width: 45%;
+}
+
+img{
+    width: 100%;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* CELULARES */
+
+@media (max-width: 480px){
+
+    section{
+        flex-direction: column;
+        margin: 2%;
+    }
+
+    .texto{
+        width: 100%;
+    }
+
+    .imagem{
+        width: 100%;
+    }
+
+}
+
+
+/* TABLETS */
+
+@media (min-width: 481px) and (max-width: 1024px){
+
+    section{
+        margin: 3%;
+        gap: 5%;
+    }
+
+    .texto{
+        width: 47%;
+    }
+
+    .imagem{
+        width: 47%;
+    }
+
+}
+
+
+/* COMPUTADORES */
+
+@media (min-width: 1025px){
+
+    section{
+        margin: 0 10%;
+    }
+
+}
