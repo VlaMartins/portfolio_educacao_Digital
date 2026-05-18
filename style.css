@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    margin: 0;
 }
 
 strong{
@@ -9,6 +10,7 @@ strong{
 
 header h1{
    padding: 1em;
+   margin: 0 10%;
    margin-bottom: 10px;
    text-align: center;
    background-color: rgb(197, 133, 133);
