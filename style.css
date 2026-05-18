@@ -43,6 +43,13 @@ footer{
     width: 100%;
 }
 
+a{
+    color: white;
+}
+
+a:visited{
+    color: lightblue;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /* CELULARES */
 
