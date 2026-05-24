@@ -29,14 +29,6 @@ img{
     width: 80%;
 }
 
-footer{
-    margin: 0 auto;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 p a{
     color: white;
     text-align: center;
@@ -45,6 +37,16 @@ p a{
 a:visited{
     color: lightblue;
 }
+
+footer{
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /* CELULARES */
 
