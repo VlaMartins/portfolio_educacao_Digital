@@ -62,6 +62,7 @@ img {
 li a {
     color: white;
     text-decoration: none;
+    padding-left: 5%;
 }
 
 a:visited {
