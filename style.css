@@ -61,7 +61,8 @@ img {
 
 ul{
     padding-left: 5%;
-    display: inline;
+    display: flex;
+    list-style: none;
 
 }
 li a {
