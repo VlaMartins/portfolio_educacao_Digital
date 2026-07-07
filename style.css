@@ -92,18 +92,18 @@ footer {
 /* TABLETS */
 /* ========================= */
 
-@media (min-width: 481px) and (max-width: 1024px) {
+/* @media (min-width: 481px) and (max-width: 1024px) {
     section {
         margin: 3%;
         gap: 5%;
     }
-}
+} */
 
 /* ========================= */
 /* COMPUTADORES */
 /* ========================= */
 @media (min-width: 1025px) {
     section {
-        margin: 0 10%;
+        margin: 0 5%;
     }
 }
