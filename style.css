@@ -61,11 +61,10 @@ img {
 
 ul{
     /* padding-left: 5%; */
-    display: flex;
-    margin: auto;
     list-style: none;
     gap: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
 
 }
 li a {
