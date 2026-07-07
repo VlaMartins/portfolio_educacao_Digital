@@ -33,11 +33,15 @@ header h1 {
     width: 100%;
 }
 
+
 /* O conteúdo ocupa o espaço livre da página */
 main {
     flex: 1;
 }
 
+h2, h3{
+    padding: 10px;
+}
 /* Organiza texto e imagem lado a lado */
 section {
     margin: 0 10%;
