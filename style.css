@@ -53,7 +53,7 @@ section {
 /* "Seleciona apenas as <div> que são filhas diretas da <section>." */
 section > div {
     flex: 1;
-    padding: 10%
+    padding: 5%;
 }
 
 /* Faz a img resp */
