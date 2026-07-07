@@ -11,9 +11,9 @@ html, body {
 body {
     background-color: black;
     color: white;
-    line-height: 1.5;
+    line-height: 2.0;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 19px;
 
     min-height: 100vh;  /* Altura mínima = altura da tela */
     display: flex;  /* Ativa o Flexbox */
@@ -51,7 +51,6 @@ section {
 /* "Seleciona apenas as <div> que são filhas diretas da <section>." */
 section > div {
     flex: 1;
-    padding: 5%;
 }
 
 /* Faz a img resp */
