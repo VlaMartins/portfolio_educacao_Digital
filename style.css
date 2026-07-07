@@ -53,7 +53,7 @@ section > div {
 /* Faz a img resp */
 img {
     max-width: 100%;   /* Nunca ultrapassa a largura da div */
-    height: auto;      /* Mantém a proporção */
+    height: auto;  /* Mantém a proporção */
 }
 
 p a {
@@ -79,7 +79,7 @@ footer {
 @media (max-width: 480px) {
     section {
         flex-direction: column; /* Texto fica acima da imagem */
-        margin: 2%;
+        margin: 3%;
         gap: 20px;
     }
 }
