@@ -1,6 +1,12 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
 /* Faz a página ocupar toda a altura da tela */
 html, body {
     min-height: 100%;
+
 }
 
 body {
