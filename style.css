@@ -69,6 +69,7 @@ footer {
     margin-top: auto;  /* Empurra o rodapé para baixo */
     text-align: center;
     width: 100%;
+    background-color: rgb(60, 37, 80);
 }
 
 /* ========================= */
