@@ -55,15 +55,13 @@ section {
 /* "Seleciona apenas as <div> que são filhas diretas da <section>." */
 section > div {
     flex: 1;
-    margin: 10%;
+    margin: 2%;
 }
 
 /* Faz a img resp */
 img {
     max-width: 100%;   /* Nunca ultrapassa a largura da div */
     height: auto;  /* Mantém a proporção */
-    padding: 10%;
-    width: 50%;
 }
 
 ul{
