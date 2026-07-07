@@ -59,10 +59,14 @@ img {
     height: auto;  /* Mantém a proporção */
 }
 
+ul{
+    padding-left: 5%;
+    display: inline;
+
+}
 li a {
     color: white;
     text-decoration: none;
-    padding-left: 5%;
 }
 
 a:visited {
