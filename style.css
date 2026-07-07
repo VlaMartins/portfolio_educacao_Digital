@@ -26,8 +26,9 @@ header h1 {
     margin: 0 10%;
     margin-bottom: 10px;
     text-align: center;
-    color: black;
-    background-color: rgb(203, 233, 245);
+    color: rgb(242, 242, 242);
+    background-color: rgb(5, 59, 81);
+    width: 100%;
 }
 
 /* O conteúdo ocupa o espaço livre da página */
@@ -69,7 +70,7 @@ footer {
     margin-top: auto;  /* Empurra o rodapé para baixo */
     text-align: center;
     width: 100%;
-    background-color: rgb(60, 37, 80);
+    background-color: rgb(203, 165, 236);
 }
 
 /* ========================= */
