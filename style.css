@@ -60,8 +60,9 @@ img {
 }
 
 ul{
-    padding-left: 5%;
+    /* padding-left: 5%; */
     display: flex;
+    margin: auto;
     list-style: none;
     gap: 20px;
     text-align: center;
