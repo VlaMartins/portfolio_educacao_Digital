@@ -78,6 +78,9 @@ li a {
 
 }
 
+a:hover{
+    color: yellow; 
+}
 a:visited {
     color: lightblue;
 }
