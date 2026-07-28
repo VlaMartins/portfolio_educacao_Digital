@@ -1,45 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-    <h1> Meu Portfolio... </h1>
-</header>
-    <main>
-        <section> <!-- começo da seção -->
-            <div> <!-- div 1 -->
-                <h2> 
-                   Olá!!! Eu sou a <strong> Vlá </strong>  
-                </h2>
 
-                <p>
-                    Sou Vladismara, professora de Educação Digital da 1ª Série do Ensino Médio, e no Curso Técnico em Desenvolvimento de Sistemas trabalho com os componentes de Banco de Dados (1ª Série). Programação Front-end (2ª Série) e Computação Gráfica (3ª Série). Trabalho no Colégio Estadual Profª Reni Correia Gamper, na cidade de Manoel Ribas, Paraná. 
-                </p>
+<body> 
+    <header>
+        <h1> Meu Portfolio... </h1>
+        <button id="tema" onclick="trocarTema()"> 🌙 </button>
+    </header>
+    <main> 
+        <section>
+            <div>
+                <h2> Olá!!! Eu sou a Vlá </h2>
+                <p> Sou Vladismara, professora de Educação Digital da 1ª Série do Ensino Médio, e no Curso Técnico em
+                    Desenvolvimento de Sistemas trabalho com os componentes de Banco de Dados (1ª Série). Programação
+                    Front-end (2ª Série) e Computação Gráfica (3ª Série). Trabalho no Colégio Estadual Profª Reni
+                    Correia Gamper, na cidade de Manoel Ribas, Paraná.</p>
+            </div>
 
-                <h3> Follow me </h3>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/vladismara/"> Instagram </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/VlaMartins"> GitHub </a> 
-                    </li>
-                    <li>
-                        <a href="#"> LinkedIn </a>
-                    </li>
-                </ul>
-            </div>  
-            
-            <div> <!-- div 2 -->
+            <div> 
                 <img src="imagem.png" alt="Foto da Vlá">
             </div>
-        </section> <!-- fim da seção -->
+        </section>
     </main>
 
     <footer>
@@ -49,5 +37,13 @@
         </p>
 
     </footer>
+
+    <script>
+        function trocarTema() {
+            document.body.classList.toggle("claro");
+
+        }
+    </script>
 </body>
+
 </html>
